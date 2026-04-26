@@ -17,7 +17,9 @@
       "Bash(git add *)",
       "Bash(git commit *)",
       "Bash(gh repo *)",
-      "Bash(git config *)"
+      "Bash(git config *)",
+      "Bash(python summarizer/main.py)",
+      "Bash(git push *)"
     ]
   }
 }
