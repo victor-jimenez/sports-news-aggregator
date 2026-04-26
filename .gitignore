@@ -1,0 +1,10 @@
+node_modules/
+__pycache__/
+*.pyc
+.env
+scraped_news.csv
+processed_news.json
+summarized_news.json
+.next/
+out/
+build/

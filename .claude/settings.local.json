@@ -1,0 +1,23 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(npx create-next-app@latest frontend --typescript --tailwind --eslint --app --src-dir --import-alias \"@/*\" --use-npm --no-install)",
+      "Bash(npm --version)",
+      "PowerShell(npm *)",
+      "Bash(pip install *)",
+      "Bash(python scraper/main.py)",
+      "Bash(python processor/main.py)",
+      "Bash(npx create-next-app@latest *)",
+      "Bash(mkdir -p app/src/app/api/news)",
+      "Bash(mv app/app/app/api/news/route.ts app/src/app/api/news/route.ts)",
+      "Bash(rm -rf app/app)",
+      "Bash(mv app/app/api/news/route.ts app/src/app/api/news/route.ts)",
+      "Bash(npm run *)",
+      "Bash(git init *)",
+      "Bash(git add *)",
+      "Bash(git commit *)",
+      "Bash(gh repo *)",
+      "Bash(git config *)"
+    ]
+  }
+}
